@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruhbaani's portfolio</title>
+</head>
+<body>
+    <canvas id="bg"></canvas>
+
+    <main>
+        <header>
+            <h1>Ruhbaani Singh</h1>
+            <p>Welcome to my portfolio!</p>
+        </header>
+
+        <blockquote>
+            <p>Final-year computer science student with experience in software development, 
+                ERP configuration, data validation, and developing 
+                accessibility-focused software.</p>
+        </blockquote>
+        <blockquote class="left">
+            <p>Comfortable translating requirements 
+                between business and technical teams, documenting controls and workflows, 
+                and building privacy-aware prototypes using Python, JavaScript, C#, SQL, 
+                React, and cloud fundamentals</p>
+        </blockquote>
+        <blockquote>
+            <p>Passionate about accessibility and inclusive design, with a strong 
+                interest in developing software that enhances user experiences for 
+                all individuals, including those with disabilities.</p>
+        </blockquote>
+
+        <section class="light">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/Ruhbaani/WaitList">Waitlist</a></li>
+                <p>Waitlist is a multi-tenant ASP.NET Core app and appointment management platform
+                    Designed to ensure rolebased authorization and tenant-aware data acess, restricting API endpoints and
+                    database queries by user role and account. It is built using C#, EF Core, SQL Server, and REST APIs,
+                    and has an in-progress frontend built with React.
+                </p>
+                <li><a href="https://github.com/Ruhbaani/AT-augmentation-extension">Accessibility Tree Augmentation Extension</a></li>
+                <p>This is a Browser extension research prototype for accessible web software.
+                    For this extension, I built a chromium-based pipeline which captures page artefacts
+                    such as the page DOM, accessibility tree, metadata, screenshots, and 
+                    use the axe-core tool to get overall accessibility findings from the
+                    page before the extension is applied.
+                </p>
+                <p>I implemented content-script, background-worker, and rollback-
+                    flows to apply session-scoped accessibility fixes, and preserved audit
+                    traces for research evaluation. The extension is built using JavaScript,
+                    Chrome extension APIs and React.
+                </p>
+            </ul>
+        </section>
+        <section class="left">
+            <h2>Work History</h2>
+            <h3>DataAnnotation.tech</h3>
+            <h4>AI Prompt Engineer (April 2024- Nov 2025)</h4>
+            <p>Worked on various AI prompt engineering tasks, including
+                developing and optimizing prompts for natural language processing models.</p> 
+            <h3>Focus Softnet Solutions</h3>
+            <h4>Technical Consultant Intern (July 2025 - September 2025)</h4>
+            <p>Gathered client requirements for ERP module configuration and workflow customization.</p>           
+
+        </section>
+        <blockquote>
+            <p>Feel free to reach out to me via email at <a href="mailto:ruhbaanisingh@gmail.com">ruhbaanisingh@gmail.com</a> 
+                <br>Or connect with me on <a href="https://www.linkedin.com/in/ruhbaani-singh-9395b425b/">LinkedIn</a>
+                <br>I am always open to discussing new opportunities and potential collaborations!</p>
+        </blockquote>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>   
+</body>
+</html>
